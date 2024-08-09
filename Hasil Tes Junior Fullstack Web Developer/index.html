@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree-like To Do List App</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <div class="container" >
+        <header>
+            <img src="energeek.png" alt="Deskripsi Gambar" />
+        </header>
+        <main>
+            <div class="user-info-container">
+                <div class="user-info">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" placeholder="Nama">
+                </div>
+                <div class="user-info">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                <div class="user-info">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="todo-section-header">
+                <h2>To Do List</h2>
+                <button id="add-todo-btn"><i class="fas fa-plus"></i> Tambah To Do</button>
+            </div>
+            <div class="todo-section">
+                <div class="todo-input-container">
+                    <div class="todo-input">
+                        <label for="todo-title">Judul To Do</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-title" placeholder="Contoh : Perbaikan Api Master">
+                        </div>
+                    </div>
+                    <div class="todo-category">
+                        <label for="todo-category">Kategori</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-category" placeholder="To Do">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>                    
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </div>
+            <div class="todo-section-header">
+            </div>
+            <div class="todo-section">
+                <div class="todo-input-container">
+                    <div class="todo-input">
+                        <label for="todo-title">Judul To Do</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-title" placeholder="Contoh : Perbaikan Api Master">
+                        </div>
+                    </div>
+                    <div class="todo-category">
+                        <label for="todo-category">Kategori</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-category" placeholder="To Do">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>                    
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button> 
+                </div>
+            </div>
+            <div class="todo-section-header">
+            </div>
+            <div class="todo-section">
+                <div class="todo-input-container">
+                    <div class="todo-input">
+                        <label for="todo-title">Judul To Do</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-title" placeholder="Contoh : Perbaikan Api Master">
+                        </div>
+                    </div>
+                    <div class="todo-category">
+                        <label for="todo-category">Kategori</label>
+                        <div class="input-with-icon">
+                            <input type="text" id="todo-category" placeholder="To Do">
+                            <i class="fas fa-chevron-down"></i> 
+                        </div>
+                    </div>                    
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button> 
+                </div>
+            </div>
+            <div class="save-section">
+                <button id="save-btn">SIMPAN</button>
+            </div>
+        <script src="script.js"></script>
+</body>
+</html>
